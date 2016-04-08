@@ -9,7 +9,6 @@ var UserSchema = new mongoose.Schema({
     // 0: normal user
     // 1: verified user
     // 2: professional user
-    
     // >10: admin
     role: {
         type: Number,
